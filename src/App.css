@@ -1,0 +1,109 @@
+.app {
+  width: 350px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.scroller {
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  overflow: auto;
+}
+
+.item {
+  margin: 30px 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.listStyle {
+  max-width: 300px;
+}
+
+img {
+  border-radius: 0.8em;
+}
+
+svg {
+  font-size: 2em;
+  color: lightblue;
+  border: 1px solid lightblue;
+  border-radius: 0.2em;
+  margin: -0.3em 0.1em 0 0;
+  padding: 0.1em;
+  float: left;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul li {
+  margin: 10px;
+  border-radius: 20px;
+}
+b {
+  color: rgb(73, 73, 73);
+}
+
+.SimpleCard-title-3 {
+  padding-top: 20px;
+}
+.MuiTypography-body1-43 {
+  font-size: 0.675rem;
+}
+.MuiPaper-root-6.MuiPaper-elevation1-9.MuiPaper-rounded-7.MuiCard-root-5.SimpleCard-card-1 {
+  border-radius: 20px;
+}
+.MuiTypography-root-34.MuiTypography-body1-43.MuiTypography-colorTextSecondary-67.SimpleCard-pos-4 {
+  margin-bottom: 0;
+}
+.MuiPaper-rounded-8 {
+  border-radius: 20px;
+}
+.SimpleCard-card-1 {
+  border-radius: 20px;
+}
+.wi {
+  font-size: 3em;
+  color: lightblue;
+}
+
+.MuiBadge-badge-71.MuiBadge-colorPrimary-72 {
+  color: rgb(13, 121, 145);
+  font-size: 1.2em;
+  background-color: lightblue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
