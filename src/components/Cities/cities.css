@@ -1,0 +1,36 @@
+.card {
+    background-color: white;
+    color: #272727;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+    transition: 200ms;
+    max-width: 380px;
+  }
+  
+  .card:hover {
+    transition: 200ms;
+    border: 3px;
+    border-style: solid;
+  }
+  
+  .card-title-group {
+    justify-content: center;
+  }
+  
+  .card-title {
+    flex: 0.5;
+    font-size: large;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .card-header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  

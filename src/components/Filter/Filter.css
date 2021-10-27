@@ -1,0 +1,18 @@
+.active {
+    background-color: lightblue;
+    width: 73px;
+    height: 73px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  button {
+    background-color: lightblue;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
